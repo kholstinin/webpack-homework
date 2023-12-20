@@ -39,6 +39,8 @@ car.hooks.accelerate.tapAsync('Accelerate', (newSpeed, cb) => {
 car.hooks.accelerate.tapAsync('AccelerateThreshold', (newSpeed, cb) => {
 	if (newSpeed > 300) {
 		cb('error');
+	} else {
+		cb(null, newSpeed);
 	}
 });
 
