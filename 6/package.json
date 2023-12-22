@@ -1,0 +1,6 @@
+{
+	"scripts": {
+		"build:dist": "webpack --output-path ./dist",
+		"build:bundle": "webpack --output-path ./bundle"
+	}
+}

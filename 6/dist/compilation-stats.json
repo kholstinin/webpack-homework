@@ -1,0 +1,3632 @@
+{
+  "hash": "7cb3ba0ca692e18ca03e",
+  "version": "5.89.0",
+  "time": null,
+  "builtAt": null,
+  "publicPath": "auto",
+  "outputPath": "/Users/kholstinin/webpack-homework/6/dist",
+  "assetsByChunkName": {
+    "app": [
+      "app.js"
+    ],
+    "home": [
+      "home.js"
+    ],
+    "login": [
+      "login.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "login.js",
+      "size": 1137944,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "size": 1137944
+      },
+      "chunkNames": [
+        "login"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "login"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "home.js",
+      "size": 1137940,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "size": 1137940
+      },
+      "chunkNames": [
+        "home"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "home"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "app.js",
+      "size": 3563,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "size": 3563
+      },
+      "chunkNames": [
+        "app"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "app"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 982,
+      "sizes": {
+        "javascript": 312,
+        "runtime": 670
+      },
+      "names": [
+        "app"
+      ],
+      "idHints": [],
+      "runtime": [
+        "app"
+      ],
+      "files": [
+        "app.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "42f6c4f3be884856ea7f",
+      "childrenByOrder": {},
+      "id": "app",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 115,
+          "sizes": {
+            "javascript": 115
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/kholstinin/webpack-homework/6/src/app.js",
+          "name": "./src/app.js",
+          "nameForCondition": "/Users/kholstinin/webpack-homework/6/src/app.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/app.js",
+          "issuerId": null,
+          "chunks": [
+            "app"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src/app.js",
+              "loc": "app",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 197,
+          "sizes": {
+            "javascript": 197
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/kholstinin/webpack-homework/6/src/components/button.js",
+          "name": "./src/components/button.js",
+          "nameForCondition": "/Users/kholstinin/webpack-homework/6/src/components/button.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/kholstinin/webpack-homework/6/src/app.js",
+          "issuerName": "./src/app.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/6/src/app.js",
+              "name": "./src/app.js",
+              "id": "./src/app.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/components/button.js",
+          "issuerId": "./src/app.js",
+          "chunks": [
+            "app"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/6/src/app.js",
+              "module": "./src/app.js",
+              "moduleName": "./src/app.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/6/src/app.js",
+              "resolvedModule": "./src/app.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./components/button",
+              "loc": "1:0-45",
+              "moduleId": "./src/app.js",
+              "resolvedModuleId": "./src/app.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/6/src/app.js",
+              "module": "./src/app.js",
+              "moduleName": "./src/app.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/6/src/app.js",
+              "resolvedModule": "./src/app.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./components/button",
+              "loc": "3:19-25",
+              "moduleId": "./src/app.js",
+              "resolvedModuleId": "./src/app.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "Button"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 308,
+          "sizes": {
+            "runtime": 308
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/define property getters",
+          "name": "webpack/runtime/define property getters",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "app"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 88,
+          "sizes": {
+            "runtime": 88
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "app"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "app"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "app",
+          "request": "./src/app.js"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 1134468,
+      "sizes": {
+        "javascript": 1134071,
+        "runtime": 397
+      },
+      "names": [
+        "home"
+      ],
+      "idHints": [],
+      "runtime": [
+        "home"
+      ],
+      "files": [
+        "home.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "c01660007ceb7996ac53",
+      "childrenByOrder": {},
+      "id": "home",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1026501,
+          "sizes": {
+            "javascript": 1026501
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+          "name": "../node_modules/react-dom/cjs/react-dom.development.js",
+          "nameForCondition": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+          "index": 5,
+          "preOrderIndex": 5,
+          "index2": 6,
+          "postOrderIndex": 6,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+          "issuerName": "../node_modules/react-dom/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+              "name": "./src/pages/home.js",
+              "id": "./src/pages/home.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+              "name": "../node_modules/react-dom/client.js",
+              "id": "../node_modules/react-dom/client.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+              "name": "../node_modules/react-dom/index.js",
+              "id": "../node_modules/react-dom/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "../node_modules/react-dom/cjs/react-dom.development.js",
+          "issuerId": "../node_modules/react-dom/index.js",
+          "chunks": [
+            "home",
+            "login"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+              "module": "../node_modules/react-dom/index.js",
+              "moduleName": "../node_modules/react-dom/index.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+              "resolvedModule": "../node_modules/react-dom/index.js",
+              "type": "cjs export require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./cjs/react-dom.development.js",
+              "loc": "37:2-60",
+              "moduleId": "../node_modules/react-dom/index.js",
+              "resolvedModuleId": "../node_modules/react-dom/index.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+            "createPortal",
+            "createRoot",
+            "findDOMNode",
+            "flushSync",
+            "hydrate",
+            "hydrateRoot",
+            "render",
+            "unmountComponentAtNode",
+            "unstable_batchedUpdates",
+            "unstable_renderSubtreeIntoContainer",
+            "version"
+          ],
+          "optimizationBailout": [],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 619,
+          "sizes": {
+            "javascript": 619
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+          "name": "../node_modules/react-dom/client.js",
+          "nameForCondition": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+          "index": 3,
+          "preOrderIndex": 3,
+          "index2": 8,
+          "postOrderIndex": 8,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+          "issuerName": "./src/pages/home.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+              "name": "./src/pages/home.js",
+              "id": "./src/pages/home.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "../node_modules/react-dom/client.js",
+          "issuerId": "./src/pages/home.js",
+          "chunks": [
+            "home",
+            "login"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+              "module": "./src/pages/home.js",
+              "moduleName": "./src/pages/home.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+              "resolvedModule": "./src/pages/home.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react-dom/client",
+              "loc": "1:0-44",
+              "moduleId": "./src/pages/home.js",
+              "resolvedModuleId": "./src/pages/home.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+              "module": "./src/pages/home.js",
+              "moduleName": "./src/pages/home.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+              "resolvedModule": "./src/pages/home.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react-dom/client",
+              "loc": "3:13-23",
+              "moduleId": "./src/pages/home.js",
+              "resolvedModuleId": "./src/pages/home.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/6/src/pages/login.js",
+              "module": "./src/pages/login.js",
+              "moduleName": "./src/pages/login.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/6/src/pages/login.js",
+              "resolvedModule": "./src/pages/login.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react-dom/client",
+              "loc": "1:0-44",
+              "moduleId": "./src/pages/login.js",
+              "resolvedModuleId": "./src/pages/login.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/6/src/pages/login.js",
+              "module": "./src/pages/login.js",
+              "moduleName": "./src/pages/login.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/6/src/pages/login.js",
+              "resolvedModule": "./src/pages/login.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react-dom/client",
+              "loc": "3:13-23",
+              "moduleId": "./src/pages/login.js",
+              "resolvedModuleId": "./src/pages/login.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "createRoot",
+            "hydrateRoot"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1363,
+          "sizes": {
+            "javascript": 1363
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+          "name": "../node_modules/react-dom/index.js",
+          "nameForCondition": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 7,
+          "postOrderIndex": 7,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+          "issuerName": "../node_modules/react-dom/client.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+              "name": "./src/pages/home.js",
+              "id": "./src/pages/home.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+              "name": "../node_modules/react-dom/client.js",
+              "id": "../node_modules/react-dom/client.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "../node_modules/react-dom/index.js",
+          "issuerId": "../node_modules/react-dom/client.js",
+          "chunks": [
+            "home",
+            "login"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+              "module": "../node_modules/react-dom/client.js",
+              "moduleName": "../node_modules/react-dom/client.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+              "resolvedModule": "../node_modules/react-dom/client.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react-dom",
+              "loc": "3:8-28",
+              "moduleId": "../node_modules/react-dom/client.js",
+              "resolvedModuleId": "../node_modules/react-dom/client.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+            "createPortal",
+            "createRoot",
+            "findDOMNode",
+            "flushSync",
+            "hydrate",
+            "hydrateRoot",
+            "render",
+            "unmountComponentAtNode",
+            "unstable_batchedUpdates",
+            "unstable_renderSubtreeIntoContainer",
+            "version"
+          ],
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 87574,
+          "sizes": {
+            "javascript": 87574
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react/cjs/react.development.js",
+          "name": "../node_modules/react/cjs/react.development.js",
+          "nameForCondition": "/Users/kholstinin/webpack-homework/node_modules/react/cjs/react.development.js",
+          "index": 7,
+          "preOrderIndex": 7,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/kholstinin/webpack-homework/node_modules/react/index.js",
+          "issuerName": "../node_modules/react/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+              "name": "./src/pages/home.js",
+              "id": "./src/pages/home.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+              "name": "../node_modules/react-dom/client.js",
+              "id": "../node_modules/react-dom/client.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+              "name": "../node_modules/react-dom/index.js",
+              "id": "../node_modules/react-dom/index.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+              "name": "../node_modules/react-dom/cjs/react-dom.development.js",
+              "id": "../node_modules/react-dom/cjs/react-dom.development.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react/index.js",
+              "name": "../node_modules/react/index.js",
+              "id": "../node_modules/react/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "../node_modules/react/cjs/react.development.js",
+          "issuerId": "../node_modules/react/index.js",
+          "chunks": [
+            "home",
+            "login"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react/cjs/react.development.js",
+              "module": "../node_modules/react/cjs/react.development.js",
+              "moduleName": "../node_modules/react/cjs/react.development.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react/cjs/react.development.js",
+              "resolvedModule": "../node_modules/react/cjs/react.development.js",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "2459:24-30",
+              "moduleId": "../node_modules/react/cjs/react.development.js",
+              "resolvedModuleId": "../node_modules/react/cjs/react.development.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react/cjs/react.development.js",
+              "module": "../node_modules/react/cjs/react.development.js",
+              "moduleName": "../node_modules/react/cjs/react.development.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react/cjs/react.development.js",
+              "resolvedModule": "../node_modules/react/cjs/react.development.js",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "2459:34-40",
+              "moduleId": "../node_modules/react/cjs/react.development.js",
+              "resolvedModuleId": "../node_modules/react/cjs/react.development.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react/cjs/react.development.js",
+              "module": "../node_modules/react/cjs/react.development.js",
+              "moduleName": "../node_modules/react/cjs/react.development.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react/cjs/react.development.js",
+              "resolvedModule": "../node_modules/react/cjs/react.development.js",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "2462:41-47",
+              "moduleId": "../node_modules/react/cjs/react.development.js",
+              "resolvedModuleId": "../node_modules/react/cjs/react.development.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react/index.js",
+              "module": "../node_modules/react/index.js",
+              "moduleName": "../node_modules/react/index.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react/index.js",
+              "resolvedModule": "../node_modules/react/index.js",
+              "type": "cjs export require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./cjs/react.development.js",
+              "loc": "6:2-56",
+              "moduleId": "../node_modules/react/index.js",
+              "resolvedModuleId": "../node_modules/react/index.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 5
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 190,
+          "sizes": {
+            "javascript": 190
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react/index.js",
+          "name": "../node_modules/react/index.js",
+          "nameForCondition": "/Users/kholstinin/webpack-homework/node_modules/react/index.js",
+          "index": 6,
+          "preOrderIndex": 6,
+          "index2": 3,
+          "postOrderIndex": 3,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+          "issuerName": "../node_modules/react-dom/cjs/react-dom.development.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+              "name": "./src/pages/home.js",
+              "id": "./src/pages/home.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+              "name": "../node_modules/react-dom/client.js",
+              "id": "../node_modules/react-dom/client.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+              "name": "../node_modules/react-dom/index.js",
+              "id": "../node_modules/react-dom/index.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+              "name": "../node_modules/react-dom/cjs/react-dom.development.js",
+              "id": "../node_modules/react-dom/cjs/react-dom.development.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "../node_modules/react/index.js",
+          "issuerId": "../node_modules/react-dom/cjs/react-dom.development.js",
+          "chunks": [
+            "home",
+            "login"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+              "module": "../node_modules/react-dom/cjs/react-dom.development.js",
+              "moduleName": "../node_modules/react-dom/cjs/react-dom.development.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+              "resolvedModule": "../node_modules/react-dom/cjs/react-dom.development.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "26:22-38",
+              "moduleId": "../node_modules/react-dom/cjs/react-dom.development.js",
+              "resolvedModuleId": "../node_modules/react-dom/cjs/react-dom.development.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 4
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 17497,
+          "sizes": {
+            "javascript": 17497
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+          "name": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "nameForCondition": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+          "index": 9,
+          "preOrderIndex": 9,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/kholstinin/webpack-homework/node_modules/scheduler/index.js",
+          "issuerName": "../node_modules/scheduler/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+              "name": "./src/pages/home.js",
+              "id": "./src/pages/home.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+              "name": "../node_modules/react-dom/client.js",
+              "id": "../node_modules/react-dom/client.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+              "name": "../node_modules/react-dom/index.js",
+              "id": "../node_modules/react-dom/index.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+              "name": "../node_modules/react-dom/cjs/react-dom.development.js",
+              "id": "../node_modules/react-dom/cjs/react-dom.development.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/index.js",
+              "name": "../node_modules/scheduler/index.js",
+              "id": "../node_modules/scheduler/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "issuerId": "../node_modules/scheduler/index.js",
+          "chunks": [
+            "home",
+            "login"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+              "module": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "moduleName": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModule": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "230:28-48",
+              "moduleId": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModuleId": "../node_modules/scheduler/cjs/scheduler.development.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+              "module": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "moduleName": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModule": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "267:20-40",
+              "moduleId": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModuleId": "../node_modules/scheduler/cjs/scheduler.development.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+              "module": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "moduleName": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModule": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "366:20-40",
+              "moduleId": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModuleId": "../node_modules/scheduler/cjs/scheduler.development.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+              "module": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "moduleName": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModule": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "486:20-40",
+              "moduleId": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModuleId": "../node_modules/scheduler/cjs/scheduler.development.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+              "module": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "moduleName": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModule": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "519:22-42",
+              "moduleId": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModuleId": "../node_modules/scheduler/cjs/scheduler.development.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+              "module": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "moduleName": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModule": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "594:13-33",
+              "moduleId": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModuleId": "../node_modules/scheduler/cjs/scheduler.development.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/index.js",
+              "module": "../node_modules/scheduler/index.js",
+              "moduleName": "../node_modules/scheduler/index.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/index.js",
+              "resolvedModule": "../node_modules/scheduler/index.js",
+              "type": "cjs export require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./cjs/scheduler.development.js",
+              "loc": "6:2-60",
+              "moduleId": "../node_modules/scheduler/index.js",
+              "resolvedModuleId": "../node_modules/scheduler/index.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "unstable_IdlePriority",
+            "unstable_ImmediatePriority",
+            "unstable_LowPriority",
+            "unstable_NormalPriority",
+            "unstable_Profiling",
+            "unstable_UserBlockingPriority",
+            "unstable_cancelCallback",
+            "unstable_continueExecution",
+            "unstable_forceFrameRate",
+            "unstable_getCurrentPriorityLevel",
+            "unstable_getFirstCallbackNode",
+            "unstable_next",
+            "unstable_now",
+            "unstable_pauseExecution",
+            "unstable_requestPaint",
+            "unstable_runWithPriority",
+            "unstable_scheduleCallback",
+            "unstable_shouldYield",
+            "unstable_wrapCallback"
+          ],
+          "optimizationBailout": [
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 230:28-48",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 267:20-40",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 366:20-40",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 486:20-40",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 519:22-42",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 594:13-33"
+          ],
+          "depth": 5
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 198,
+          "sizes": {
+            "javascript": 198
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/index.js",
+          "name": "../node_modules/scheduler/index.js",
+          "nameForCondition": "/Users/kholstinin/webpack-homework/node_modules/scheduler/index.js",
+          "index": 8,
+          "preOrderIndex": 8,
+          "index2": 5,
+          "postOrderIndex": 5,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+          "issuerName": "../node_modules/react-dom/cjs/react-dom.development.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+              "name": "./src/pages/home.js",
+              "id": "./src/pages/home.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+              "name": "../node_modules/react-dom/client.js",
+              "id": "../node_modules/react-dom/client.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+              "name": "../node_modules/react-dom/index.js",
+              "id": "../node_modules/react-dom/index.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+              "name": "../node_modules/react-dom/cjs/react-dom.development.js",
+              "id": "../node_modules/react-dom/cjs/react-dom.development.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "../node_modules/scheduler/index.js",
+          "issuerId": "../node_modules/react-dom/cjs/react-dom.development.js",
+          "chunks": [
+            "home",
+            "login"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+              "module": "../node_modules/react-dom/cjs/react-dom.development.js",
+              "moduleName": "../node_modules/react-dom/cjs/react-dom.development.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+              "resolvedModule": "../node_modules/react-dom/cjs/react-dom.development.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "scheduler",
+              "loc": "27:16-36",
+              "moduleId": "../node_modules/react-dom/cjs/react-dom.development.js",
+              "resolvedModuleId": "../node_modules/react-dom/cjs/react-dom.development.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "unstable_IdlePriority",
+            "unstable_ImmediatePriority",
+            "unstable_LowPriority",
+            "unstable_NormalPriority",
+            "unstable_Profiling",
+            "unstable_UserBlockingPriority",
+            "unstable_cancelCallback",
+            "unstable_continueExecution",
+            "unstable_forceFrameRate",
+            "unstable_getCurrentPriorityLevel",
+            "unstable_getFirstCallbackNode",
+            "unstable_next",
+            "unstable_now",
+            "unstable_pauseExecution",
+            "unstable_requestPaint",
+            "unstable_runWithPriority",
+            "unstable_scheduleCallback",
+            "unstable_shouldYield",
+            "unstable_wrapCallback"
+          ],
+          "optimizationBailout": [],
+          "depth": 4
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 129,
+          "sizes": {
+            "javascript": 129
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+          "name": "./src/pages/home.js",
+          "nameForCondition": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 9,
+          "postOrderIndex": 9,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/pages/home.js",
+          "issuerId": null,
+          "chunks": [
+            "home"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src/pages/home.js",
+              "loc": "home",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "home"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 123,
+          "sizes": {
+            "runtime": 123
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/node module decorator",
+          "name": "webpack/runtime/node module decorator",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "home"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "home",
+          "request": "./src/pages/home.js"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 1134469,
+      "sizes": {
+        "javascript": 1134072,
+        "runtime": 397
+      },
+      "names": [
+        "login"
+      ],
+      "idHints": [],
+      "runtime": [
+        "login"
+      ],
+      "files": [
+        "login.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "a918a769ccf40c672a04",
+      "childrenByOrder": {},
+      "id": "login",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1026501,
+          "sizes": {
+            "javascript": 1026501
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+          "name": "../node_modules/react-dom/cjs/react-dom.development.js",
+          "nameForCondition": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+          "index": 5,
+          "preOrderIndex": 5,
+          "index2": 6,
+          "postOrderIndex": 6,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+          "issuerName": "../node_modules/react-dom/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+              "name": "./src/pages/home.js",
+              "id": "./src/pages/home.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+              "name": "../node_modules/react-dom/client.js",
+              "id": "../node_modules/react-dom/client.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+              "name": "../node_modules/react-dom/index.js",
+              "id": "../node_modules/react-dom/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "../node_modules/react-dom/cjs/react-dom.development.js",
+          "issuerId": "../node_modules/react-dom/index.js",
+          "chunks": [
+            "home",
+            "login"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+              "module": "../node_modules/react-dom/index.js",
+              "moduleName": "../node_modules/react-dom/index.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+              "resolvedModule": "../node_modules/react-dom/index.js",
+              "type": "cjs export require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./cjs/react-dom.development.js",
+              "loc": "37:2-60",
+              "moduleId": "../node_modules/react-dom/index.js",
+              "resolvedModuleId": "../node_modules/react-dom/index.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+            "createPortal",
+            "createRoot",
+            "findDOMNode",
+            "flushSync",
+            "hydrate",
+            "hydrateRoot",
+            "render",
+            "unmountComponentAtNode",
+            "unstable_batchedUpdates",
+            "unstable_renderSubtreeIntoContainer",
+            "version"
+          ],
+          "optimizationBailout": [],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 619,
+          "sizes": {
+            "javascript": 619
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+          "name": "../node_modules/react-dom/client.js",
+          "nameForCondition": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+          "index": 3,
+          "preOrderIndex": 3,
+          "index2": 8,
+          "postOrderIndex": 8,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+          "issuerName": "./src/pages/home.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+              "name": "./src/pages/home.js",
+              "id": "./src/pages/home.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "../node_modules/react-dom/client.js",
+          "issuerId": "./src/pages/home.js",
+          "chunks": [
+            "home",
+            "login"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+              "module": "./src/pages/home.js",
+              "moduleName": "./src/pages/home.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+              "resolvedModule": "./src/pages/home.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react-dom/client",
+              "loc": "1:0-44",
+              "moduleId": "./src/pages/home.js",
+              "resolvedModuleId": "./src/pages/home.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+              "module": "./src/pages/home.js",
+              "moduleName": "./src/pages/home.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+              "resolvedModule": "./src/pages/home.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react-dom/client",
+              "loc": "3:13-23",
+              "moduleId": "./src/pages/home.js",
+              "resolvedModuleId": "./src/pages/home.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/6/src/pages/login.js",
+              "module": "./src/pages/login.js",
+              "moduleName": "./src/pages/login.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/6/src/pages/login.js",
+              "resolvedModule": "./src/pages/login.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react-dom/client",
+              "loc": "1:0-44",
+              "moduleId": "./src/pages/login.js",
+              "resolvedModuleId": "./src/pages/login.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/6/src/pages/login.js",
+              "module": "./src/pages/login.js",
+              "moduleName": "./src/pages/login.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/6/src/pages/login.js",
+              "resolvedModule": "./src/pages/login.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react-dom/client",
+              "loc": "3:13-23",
+              "moduleId": "./src/pages/login.js",
+              "resolvedModuleId": "./src/pages/login.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "createRoot",
+            "hydrateRoot"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1363,
+          "sizes": {
+            "javascript": 1363
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+          "name": "../node_modules/react-dom/index.js",
+          "nameForCondition": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 7,
+          "postOrderIndex": 7,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+          "issuerName": "../node_modules/react-dom/client.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+              "name": "./src/pages/home.js",
+              "id": "./src/pages/home.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+              "name": "../node_modules/react-dom/client.js",
+              "id": "../node_modules/react-dom/client.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "../node_modules/react-dom/index.js",
+          "issuerId": "../node_modules/react-dom/client.js",
+          "chunks": [
+            "home",
+            "login"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+              "module": "../node_modules/react-dom/client.js",
+              "moduleName": "../node_modules/react-dom/client.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+              "resolvedModule": "../node_modules/react-dom/client.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react-dom",
+              "loc": "3:8-28",
+              "moduleId": "../node_modules/react-dom/client.js",
+              "resolvedModuleId": "../node_modules/react-dom/client.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+            "createPortal",
+            "createRoot",
+            "findDOMNode",
+            "flushSync",
+            "hydrate",
+            "hydrateRoot",
+            "render",
+            "unmountComponentAtNode",
+            "unstable_batchedUpdates",
+            "unstable_renderSubtreeIntoContainer",
+            "version"
+          ],
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 87574,
+          "sizes": {
+            "javascript": 87574
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react/cjs/react.development.js",
+          "name": "../node_modules/react/cjs/react.development.js",
+          "nameForCondition": "/Users/kholstinin/webpack-homework/node_modules/react/cjs/react.development.js",
+          "index": 7,
+          "preOrderIndex": 7,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/kholstinin/webpack-homework/node_modules/react/index.js",
+          "issuerName": "../node_modules/react/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+              "name": "./src/pages/home.js",
+              "id": "./src/pages/home.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+              "name": "../node_modules/react-dom/client.js",
+              "id": "../node_modules/react-dom/client.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+              "name": "../node_modules/react-dom/index.js",
+              "id": "../node_modules/react-dom/index.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+              "name": "../node_modules/react-dom/cjs/react-dom.development.js",
+              "id": "../node_modules/react-dom/cjs/react-dom.development.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react/index.js",
+              "name": "../node_modules/react/index.js",
+              "id": "../node_modules/react/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "../node_modules/react/cjs/react.development.js",
+          "issuerId": "../node_modules/react/index.js",
+          "chunks": [
+            "home",
+            "login"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react/cjs/react.development.js",
+              "module": "../node_modules/react/cjs/react.development.js",
+              "moduleName": "../node_modules/react/cjs/react.development.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react/cjs/react.development.js",
+              "resolvedModule": "../node_modules/react/cjs/react.development.js",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "2459:24-30",
+              "moduleId": "../node_modules/react/cjs/react.development.js",
+              "resolvedModuleId": "../node_modules/react/cjs/react.development.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react/cjs/react.development.js",
+              "module": "../node_modules/react/cjs/react.development.js",
+              "moduleName": "../node_modules/react/cjs/react.development.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react/cjs/react.development.js",
+              "resolvedModule": "../node_modules/react/cjs/react.development.js",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "2459:34-40",
+              "moduleId": "../node_modules/react/cjs/react.development.js",
+              "resolvedModuleId": "../node_modules/react/cjs/react.development.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react/cjs/react.development.js",
+              "module": "../node_modules/react/cjs/react.development.js",
+              "moduleName": "../node_modules/react/cjs/react.development.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react/cjs/react.development.js",
+              "resolvedModule": "../node_modules/react/cjs/react.development.js",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "2462:41-47",
+              "moduleId": "../node_modules/react/cjs/react.development.js",
+              "resolvedModuleId": "../node_modules/react/cjs/react.development.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react/index.js",
+              "module": "../node_modules/react/index.js",
+              "moduleName": "../node_modules/react/index.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react/index.js",
+              "resolvedModule": "../node_modules/react/index.js",
+              "type": "cjs export require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./cjs/react.development.js",
+              "loc": "6:2-56",
+              "moduleId": "../node_modules/react/index.js",
+              "resolvedModuleId": "../node_modules/react/index.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 5
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 190,
+          "sizes": {
+            "javascript": 190
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react/index.js",
+          "name": "../node_modules/react/index.js",
+          "nameForCondition": "/Users/kholstinin/webpack-homework/node_modules/react/index.js",
+          "index": 6,
+          "preOrderIndex": 6,
+          "index2": 3,
+          "postOrderIndex": 3,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+          "issuerName": "../node_modules/react-dom/cjs/react-dom.development.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+              "name": "./src/pages/home.js",
+              "id": "./src/pages/home.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+              "name": "../node_modules/react-dom/client.js",
+              "id": "../node_modules/react-dom/client.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+              "name": "../node_modules/react-dom/index.js",
+              "id": "../node_modules/react-dom/index.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+              "name": "../node_modules/react-dom/cjs/react-dom.development.js",
+              "id": "../node_modules/react-dom/cjs/react-dom.development.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "../node_modules/react/index.js",
+          "issuerId": "../node_modules/react-dom/cjs/react-dom.development.js",
+          "chunks": [
+            "home",
+            "login"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+              "module": "../node_modules/react-dom/cjs/react-dom.development.js",
+              "moduleName": "../node_modules/react-dom/cjs/react-dom.development.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+              "resolvedModule": "../node_modules/react-dom/cjs/react-dom.development.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "26:22-38",
+              "moduleId": "../node_modules/react-dom/cjs/react-dom.development.js",
+              "resolvedModuleId": "../node_modules/react-dom/cjs/react-dom.development.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 4
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 17497,
+          "sizes": {
+            "javascript": 17497
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+          "name": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "nameForCondition": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+          "index": 9,
+          "preOrderIndex": 9,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/kholstinin/webpack-homework/node_modules/scheduler/index.js",
+          "issuerName": "../node_modules/scheduler/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+              "name": "./src/pages/home.js",
+              "id": "./src/pages/home.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+              "name": "../node_modules/react-dom/client.js",
+              "id": "../node_modules/react-dom/client.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+              "name": "../node_modules/react-dom/index.js",
+              "id": "../node_modules/react-dom/index.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+              "name": "../node_modules/react-dom/cjs/react-dom.development.js",
+              "id": "../node_modules/react-dom/cjs/react-dom.development.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/index.js",
+              "name": "../node_modules/scheduler/index.js",
+              "id": "../node_modules/scheduler/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "issuerId": "../node_modules/scheduler/index.js",
+          "chunks": [
+            "home",
+            "login"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+              "module": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "moduleName": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModule": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "230:28-48",
+              "moduleId": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModuleId": "../node_modules/scheduler/cjs/scheduler.development.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+              "module": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "moduleName": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModule": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "267:20-40",
+              "moduleId": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModuleId": "../node_modules/scheduler/cjs/scheduler.development.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+              "module": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "moduleName": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModule": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "366:20-40",
+              "moduleId": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModuleId": "../node_modules/scheduler/cjs/scheduler.development.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+              "module": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "moduleName": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModule": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "486:20-40",
+              "moduleId": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModuleId": "../node_modules/scheduler/cjs/scheduler.development.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+              "module": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "moduleName": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModule": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "519:22-42",
+              "moduleId": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModuleId": "../node_modules/scheduler/cjs/scheduler.development.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+              "module": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "moduleName": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModule": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "594:13-33",
+              "moduleId": "../node_modules/scheduler/cjs/scheduler.development.js",
+              "resolvedModuleId": "../node_modules/scheduler/cjs/scheduler.development.js"
+            },
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/index.js",
+              "module": "../node_modules/scheduler/index.js",
+              "moduleName": "../node_modules/scheduler/index.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/index.js",
+              "resolvedModule": "../node_modules/scheduler/index.js",
+              "type": "cjs export require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./cjs/scheduler.development.js",
+              "loc": "6:2-60",
+              "moduleId": "../node_modules/scheduler/index.js",
+              "resolvedModuleId": "../node_modules/scheduler/index.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "unstable_IdlePriority",
+            "unstable_ImmediatePriority",
+            "unstable_LowPriority",
+            "unstable_NormalPriority",
+            "unstable_Profiling",
+            "unstable_UserBlockingPriority",
+            "unstable_cancelCallback",
+            "unstable_continueExecution",
+            "unstable_forceFrameRate",
+            "unstable_getCurrentPriorityLevel",
+            "unstable_getFirstCallbackNode",
+            "unstable_next",
+            "unstable_now",
+            "unstable_pauseExecution",
+            "unstable_requestPaint",
+            "unstable_runWithPriority",
+            "unstable_scheduleCallback",
+            "unstable_shouldYield",
+            "unstable_wrapCallback"
+          ],
+          "optimizationBailout": [
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 230:28-48",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 267:20-40",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 366:20-40",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 486:20-40",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 519:22-42",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 594:13-33"
+          ],
+          "depth": 5
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 198,
+          "sizes": {
+            "javascript": 198
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/index.js",
+          "name": "../node_modules/scheduler/index.js",
+          "nameForCondition": "/Users/kholstinin/webpack-homework/node_modules/scheduler/index.js",
+          "index": 8,
+          "preOrderIndex": 8,
+          "index2": 5,
+          "postOrderIndex": 5,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+          "issuerName": "../node_modules/react-dom/cjs/react-dom.development.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+              "name": "./src/pages/home.js",
+              "id": "./src/pages/home.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+              "name": "../node_modules/react-dom/client.js",
+              "id": "../node_modules/react-dom/client.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+              "name": "../node_modules/react-dom/index.js",
+              "id": "../node_modules/react-dom/index.js"
+            },
+            {
+              "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+              "name": "../node_modules/react-dom/cjs/react-dom.development.js",
+              "id": "../node_modules/react-dom/cjs/react-dom.development.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "../node_modules/scheduler/index.js",
+          "issuerId": "../node_modules/react-dom/cjs/react-dom.development.js",
+          "chunks": [
+            "home",
+            "login"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+              "module": "../node_modules/react-dom/cjs/react-dom.development.js",
+              "moduleName": "../node_modules/react-dom/cjs/react-dom.development.js",
+              "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+              "resolvedModule": "../node_modules/react-dom/cjs/react-dom.development.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "scheduler",
+              "loc": "27:16-36",
+              "moduleId": "../node_modules/react-dom/cjs/react-dom.development.js",
+              "resolvedModuleId": "../node_modules/react-dom/cjs/react-dom.development.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "unstable_IdlePriority",
+            "unstable_ImmediatePriority",
+            "unstable_LowPriority",
+            "unstable_NormalPriority",
+            "unstable_Profiling",
+            "unstable_UserBlockingPriority",
+            "unstable_cancelCallback",
+            "unstable_continueExecution",
+            "unstable_forceFrameRate",
+            "unstable_getCurrentPriorityLevel",
+            "unstable_getFirstCallbackNode",
+            "unstable_next",
+            "unstable_now",
+            "unstable_pauseExecution",
+            "unstable_requestPaint",
+            "unstable_runWithPriority",
+            "unstable_scheduleCallback",
+            "unstable_shouldYield",
+            "unstable_wrapCallback"
+          ],
+          "optimizationBailout": [],
+          "depth": 4
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 130,
+          "sizes": {
+            "javascript": 130
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/login.js",
+          "name": "./src/pages/login.js",
+          "nameForCondition": "/Users/kholstinin/webpack-homework/6/src/pages/login.js",
+          "index": 10,
+          "preOrderIndex": 10,
+          "index2": 10,
+          "postOrderIndex": 10,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/pages/login.js",
+          "issuerId": null,
+          "chunks": [
+            "login"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src/pages/login.js",
+              "loc": "login",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "login"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 123,
+          "sizes": {
+            "runtime": 123
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/node module decorator",
+          "name": "webpack/runtime/node module decorator",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "login"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "login",
+          "request": "./src/pages/login.js"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 115,
+      "sizes": {
+        "javascript": 115
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/kholstinin/webpack-homework/6/src/app.js",
+      "name": "./src/app.js",
+      "nameForCondition": "/Users/kholstinin/webpack-homework/6/src/app.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/app.js",
+      "issuerId": null,
+      "chunks": [
+        "app"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/app.js",
+          "loc": "app",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 129,
+      "sizes": {
+        "javascript": 129
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+      "name": "./src/pages/home.js",
+      "nameForCondition": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 9,
+      "postOrderIndex": 9,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/pages/home.js",
+      "issuerId": null,
+      "chunks": [
+        "home"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/pages/home.js",
+          "loc": "home",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 130,
+      "sizes": {
+        "javascript": 130
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/login.js",
+      "name": "./src/pages/login.js",
+      "nameForCondition": "/Users/kholstinin/webpack-homework/6/src/pages/login.js",
+      "index": 10,
+      "preOrderIndex": 10,
+      "index2": 10,
+      "postOrderIndex": 10,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/pages/login.js",
+      "issuerId": null,
+      "chunks": [
+        "login"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/pages/login.js",
+          "loc": "login",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 197,
+      "sizes": {
+        "javascript": 197
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/kholstinin/webpack-homework/6/src/components/button.js",
+      "name": "./src/components/button.js",
+      "nameForCondition": "/Users/kholstinin/webpack-homework/6/src/components/button.js",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/kholstinin/webpack-homework/6/src/app.js",
+      "issuerName": "./src/app.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/6/src/app.js",
+          "name": "./src/app.js",
+          "id": "./src/app.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/components/button.js",
+      "issuerId": "./src/app.js",
+      "chunks": [
+        "app"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/kholstinin/webpack-homework/6/src/app.js",
+          "module": "./src/app.js",
+          "moduleName": "./src/app.js",
+          "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/6/src/app.js",
+          "resolvedModule": "./src/app.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./components/button",
+          "loc": "1:0-45",
+          "moduleId": "./src/app.js",
+          "resolvedModuleId": "./src/app.js"
+        },
+        {
+          "moduleIdentifier": "/Users/kholstinin/webpack-homework/6/src/app.js",
+          "module": "./src/app.js",
+          "moduleName": "./src/app.js",
+          "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/6/src/app.js",
+          "resolvedModule": "./src/app.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./components/button",
+          "loc": "3:19-25",
+          "moduleId": "./src/app.js",
+          "resolvedModuleId": "./src/app.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "Button"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 619,
+      "sizes": {
+        "javascript": 619
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+      "name": "../node_modules/react-dom/client.js",
+      "nameForCondition": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+      "index": 3,
+      "preOrderIndex": 3,
+      "index2": 8,
+      "postOrderIndex": 8,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+      "issuerName": "./src/pages/home.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+          "name": "./src/pages/home.js",
+          "id": "./src/pages/home.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "../node_modules/react-dom/client.js",
+      "issuerId": "./src/pages/home.js",
+      "chunks": [
+        "home",
+        "login"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+          "module": "./src/pages/home.js",
+          "moduleName": "./src/pages/home.js",
+          "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+          "resolvedModule": "./src/pages/home.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react-dom/client",
+          "loc": "1:0-44",
+          "moduleId": "./src/pages/home.js",
+          "resolvedModuleId": "./src/pages/home.js"
+        },
+        {
+          "moduleIdentifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+          "module": "./src/pages/home.js",
+          "moduleName": "./src/pages/home.js",
+          "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+          "resolvedModule": "./src/pages/home.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react-dom/client",
+          "loc": "3:13-23",
+          "moduleId": "./src/pages/home.js",
+          "resolvedModuleId": "./src/pages/home.js"
+        },
+        {
+          "moduleIdentifier": "/Users/kholstinin/webpack-homework/6/src/pages/login.js",
+          "module": "./src/pages/login.js",
+          "moduleName": "./src/pages/login.js",
+          "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/6/src/pages/login.js",
+          "resolvedModule": "./src/pages/login.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react-dom/client",
+          "loc": "1:0-44",
+          "moduleId": "./src/pages/login.js",
+          "resolvedModuleId": "./src/pages/login.js"
+        },
+        {
+          "moduleIdentifier": "/Users/kholstinin/webpack-homework/6/src/pages/login.js",
+          "module": "./src/pages/login.js",
+          "moduleName": "./src/pages/login.js",
+          "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/6/src/pages/login.js",
+          "resolvedModule": "./src/pages/login.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react-dom/client",
+          "loc": "3:13-23",
+          "moduleId": "./src/pages/login.js",
+          "resolvedModuleId": "./src/pages/login.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "createRoot",
+        "hydrateRoot"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1363,
+      "sizes": {
+        "javascript": 1363
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+      "name": "../node_modules/react-dom/index.js",
+      "nameForCondition": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+      "index": 4,
+      "preOrderIndex": 4,
+      "index2": 7,
+      "postOrderIndex": 7,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+      "issuerName": "../node_modules/react-dom/client.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+          "name": "./src/pages/home.js",
+          "id": "./src/pages/home.js"
+        },
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+          "name": "../node_modules/react-dom/client.js",
+          "id": "../node_modules/react-dom/client.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "../node_modules/react-dom/index.js",
+      "issuerId": "../node_modules/react-dom/client.js",
+      "chunks": [
+        "home",
+        "login"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+          "module": "../node_modules/react-dom/client.js",
+          "moduleName": "../node_modules/react-dom/client.js",
+          "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+          "resolvedModule": "../node_modules/react-dom/client.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react-dom",
+          "loc": "3:8-28",
+          "moduleId": "../node_modules/react-dom/client.js",
+          "resolvedModuleId": "../node_modules/react-dom/client.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+        "createPortal",
+        "createRoot",
+        "findDOMNode",
+        "flushSync",
+        "hydrate",
+        "hydrateRoot",
+        "render",
+        "unmountComponentAtNode",
+        "unstable_batchedUpdates",
+        "unstable_renderSubtreeIntoContainer",
+        "version"
+      ],
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1026501,
+      "sizes": {
+        "javascript": 1026501
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+      "name": "../node_modules/react-dom/cjs/react-dom.development.js",
+      "nameForCondition": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+      "index": 5,
+      "preOrderIndex": 5,
+      "index2": 6,
+      "postOrderIndex": 6,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+      "issuerName": "../node_modules/react-dom/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+          "name": "./src/pages/home.js",
+          "id": "./src/pages/home.js"
+        },
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+          "name": "../node_modules/react-dom/client.js",
+          "id": "../node_modules/react-dom/client.js"
+        },
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+          "name": "../node_modules/react-dom/index.js",
+          "id": "../node_modules/react-dom/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "../node_modules/react-dom/cjs/react-dom.development.js",
+      "issuerId": "../node_modules/react-dom/index.js",
+      "chunks": [
+        "home",
+        "login"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+          "module": "../node_modules/react-dom/index.js",
+          "moduleName": "../node_modules/react-dom/index.js",
+          "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+          "resolvedModule": "../node_modules/react-dom/index.js",
+          "type": "cjs export require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./cjs/react-dom.development.js",
+          "loc": "37:2-60",
+          "moduleId": "../node_modules/react-dom/index.js",
+          "resolvedModuleId": "../node_modules/react-dom/index.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+        "createPortal",
+        "createRoot",
+        "findDOMNode",
+        "flushSync",
+        "hydrate",
+        "hydrateRoot",
+        "render",
+        "unmountComponentAtNode",
+        "unstable_batchedUpdates",
+        "unstable_renderSubtreeIntoContainer",
+        "version"
+      ],
+      "optimizationBailout": [],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 190,
+      "sizes": {
+        "javascript": 190
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/kholstinin/webpack-homework/node_modules/react/index.js",
+      "name": "../node_modules/react/index.js",
+      "nameForCondition": "/Users/kholstinin/webpack-homework/node_modules/react/index.js",
+      "index": 6,
+      "preOrderIndex": 6,
+      "index2": 3,
+      "postOrderIndex": 3,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+      "issuerName": "../node_modules/react-dom/cjs/react-dom.development.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+          "name": "./src/pages/home.js",
+          "id": "./src/pages/home.js"
+        },
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+          "name": "../node_modules/react-dom/client.js",
+          "id": "../node_modules/react-dom/client.js"
+        },
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+          "name": "../node_modules/react-dom/index.js",
+          "id": "../node_modules/react-dom/index.js"
+        },
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+          "name": "../node_modules/react-dom/cjs/react-dom.development.js",
+          "id": "../node_modules/react-dom/cjs/react-dom.development.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "../node_modules/react/index.js",
+      "issuerId": "../node_modules/react-dom/cjs/react-dom.development.js",
+      "chunks": [
+        "home",
+        "login"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+          "module": "../node_modules/react-dom/cjs/react-dom.development.js",
+          "moduleName": "../node_modules/react-dom/cjs/react-dom.development.js",
+          "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+          "resolvedModule": "../node_modules/react-dom/cjs/react-dom.development.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "26:22-38",
+          "moduleId": "../node_modules/react-dom/cjs/react-dom.development.js",
+          "resolvedModuleId": "../node_modules/react-dom/cjs/react-dom.development.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 4
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 198,
+      "sizes": {
+        "javascript": 198
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/index.js",
+      "name": "../node_modules/scheduler/index.js",
+      "nameForCondition": "/Users/kholstinin/webpack-homework/node_modules/scheduler/index.js",
+      "index": 8,
+      "preOrderIndex": 8,
+      "index2": 5,
+      "postOrderIndex": 5,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+      "issuerName": "../node_modules/react-dom/cjs/react-dom.development.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+          "name": "./src/pages/home.js",
+          "id": "./src/pages/home.js"
+        },
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+          "name": "../node_modules/react-dom/client.js",
+          "id": "../node_modules/react-dom/client.js"
+        },
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+          "name": "../node_modules/react-dom/index.js",
+          "id": "../node_modules/react-dom/index.js"
+        },
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+          "name": "../node_modules/react-dom/cjs/react-dom.development.js",
+          "id": "../node_modules/react-dom/cjs/react-dom.development.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "../node_modules/scheduler/index.js",
+      "issuerId": "../node_modules/react-dom/cjs/react-dom.development.js",
+      "chunks": [
+        "home",
+        "login"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+          "module": "../node_modules/react-dom/cjs/react-dom.development.js",
+          "moduleName": "../node_modules/react-dom/cjs/react-dom.development.js",
+          "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+          "resolvedModule": "../node_modules/react-dom/cjs/react-dom.development.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "scheduler",
+          "loc": "27:16-36",
+          "moduleId": "../node_modules/react-dom/cjs/react-dom.development.js",
+          "resolvedModuleId": "../node_modules/react-dom/cjs/react-dom.development.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "unstable_IdlePriority",
+        "unstable_ImmediatePriority",
+        "unstable_LowPriority",
+        "unstable_NormalPriority",
+        "unstable_Profiling",
+        "unstable_UserBlockingPriority",
+        "unstable_cancelCallback",
+        "unstable_continueExecution",
+        "unstable_forceFrameRate",
+        "unstable_getCurrentPriorityLevel",
+        "unstable_getFirstCallbackNode",
+        "unstable_next",
+        "unstable_now",
+        "unstable_pauseExecution",
+        "unstable_requestPaint",
+        "unstable_runWithPriority",
+        "unstable_scheduleCallback",
+        "unstable_shouldYield",
+        "unstable_wrapCallback"
+      ],
+      "optimizationBailout": [],
+      "depth": 4
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 87574,
+      "sizes": {
+        "javascript": 87574
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/kholstinin/webpack-homework/node_modules/react/cjs/react.development.js",
+      "name": "../node_modules/react/cjs/react.development.js",
+      "nameForCondition": "/Users/kholstinin/webpack-homework/node_modules/react/cjs/react.development.js",
+      "index": 7,
+      "preOrderIndex": 7,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/kholstinin/webpack-homework/node_modules/react/index.js",
+      "issuerName": "../node_modules/react/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+          "name": "./src/pages/home.js",
+          "id": "./src/pages/home.js"
+        },
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+          "name": "../node_modules/react-dom/client.js",
+          "id": "../node_modules/react-dom/client.js"
+        },
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+          "name": "../node_modules/react-dom/index.js",
+          "id": "../node_modules/react-dom/index.js"
+        },
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+          "name": "../node_modules/react-dom/cjs/react-dom.development.js",
+          "id": "../node_modules/react-dom/cjs/react-dom.development.js"
+        },
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react/index.js",
+          "name": "../node_modules/react/index.js",
+          "id": "../node_modules/react/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "../node_modules/react/cjs/react.development.js",
+      "issuerId": "../node_modules/react/index.js",
+      "chunks": [
+        "home",
+        "login"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react/cjs/react.development.js",
+          "module": "../node_modules/react/cjs/react.development.js",
+          "moduleName": "../node_modules/react/cjs/react.development.js",
+          "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react/cjs/react.development.js",
+          "resolvedModule": "../node_modules/react/cjs/react.development.js",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "2459:24-30",
+          "moduleId": "../node_modules/react/cjs/react.development.js",
+          "resolvedModuleId": "../node_modules/react/cjs/react.development.js"
+        },
+        {
+          "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react/cjs/react.development.js",
+          "module": "../node_modules/react/cjs/react.development.js",
+          "moduleName": "../node_modules/react/cjs/react.development.js",
+          "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react/cjs/react.development.js",
+          "resolvedModule": "../node_modules/react/cjs/react.development.js",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "2459:34-40",
+          "moduleId": "../node_modules/react/cjs/react.development.js",
+          "resolvedModuleId": "../node_modules/react/cjs/react.development.js"
+        },
+        {
+          "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react/cjs/react.development.js",
+          "module": "../node_modules/react/cjs/react.development.js",
+          "moduleName": "../node_modules/react/cjs/react.development.js",
+          "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react/cjs/react.development.js",
+          "resolvedModule": "../node_modules/react/cjs/react.development.js",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "2462:41-47",
+          "moduleId": "../node_modules/react/cjs/react.development.js",
+          "resolvedModuleId": "../node_modules/react/cjs/react.development.js"
+        },
+        {
+          "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react/index.js",
+          "module": "../node_modules/react/index.js",
+          "moduleName": "../node_modules/react/index.js",
+          "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/react/index.js",
+          "resolvedModule": "../node_modules/react/index.js",
+          "type": "cjs export require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./cjs/react.development.js",
+          "loc": "6:2-56",
+          "moduleId": "../node_modules/react/index.js",
+          "resolvedModuleId": "../node_modules/react/index.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 5
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 17497,
+      "sizes": {
+        "javascript": 17497
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+      "name": "../node_modules/scheduler/cjs/scheduler.development.js",
+      "nameForCondition": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+      "index": 9,
+      "preOrderIndex": 9,
+      "index2": 4,
+      "postOrderIndex": 4,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/kholstinin/webpack-homework/node_modules/scheduler/index.js",
+      "issuerName": "../node_modules/scheduler/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/6/src/pages/home.js",
+          "name": "./src/pages/home.js",
+          "id": "./src/pages/home.js"
+        },
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/client.js",
+          "name": "../node_modules/react-dom/client.js",
+          "id": "../node_modules/react-dom/client.js"
+        },
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/index.js",
+          "name": "../node_modules/react-dom/index.js",
+          "id": "../node_modules/react-dom/index.js"
+        },
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/react-dom/cjs/react-dom.development.js",
+          "name": "../node_modules/react-dom/cjs/react-dom.development.js",
+          "id": "../node_modules/react-dom/cjs/react-dom.development.js"
+        },
+        {
+          "identifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/index.js",
+          "name": "../node_modules/scheduler/index.js",
+          "id": "../node_modules/scheduler/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "../node_modules/scheduler/cjs/scheduler.development.js",
+      "issuerId": "../node_modules/scheduler/index.js",
+      "chunks": [
+        "home",
+        "login"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+          "module": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "moduleName": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+          "resolvedModule": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "230:28-48",
+          "moduleId": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "resolvedModuleId": "../node_modules/scheduler/cjs/scheduler.development.js"
+        },
+        {
+          "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+          "module": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "moduleName": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+          "resolvedModule": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "267:20-40",
+          "moduleId": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "resolvedModuleId": "../node_modules/scheduler/cjs/scheduler.development.js"
+        },
+        {
+          "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+          "module": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "moduleName": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+          "resolvedModule": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "366:20-40",
+          "moduleId": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "resolvedModuleId": "../node_modules/scheduler/cjs/scheduler.development.js"
+        },
+        {
+          "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+          "module": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "moduleName": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+          "resolvedModule": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "486:20-40",
+          "moduleId": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "resolvedModuleId": "../node_modules/scheduler/cjs/scheduler.development.js"
+        },
+        {
+          "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+          "module": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "moduleName": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+          "resolvedModule": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "519:22-42",
+          "moduleId": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "resolvedModuleId": "../node_modules/scheduler/cjs/scheduler.development.js"
+        },
+        {
+          "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+          "module": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "moduleName": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/cjs/scheduler.development.js",
+          "resolvedModule": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "594:13-33",
+          "moduleId": "../node_modules/scheduler/cjs/scheduler.development.js",
+          "resolvedModuleId": "../node_modules/scheduler/cjs/scheduler.development.js"
+        },
+        {
+          "moduleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/index.js",
+          "module": "../node_modules/scheduler/index.js",
+          "moduleName": "../node_modules/scheduler/index.js",
+          "resolvedModuleIdentifier": "/Users/kholstinin/webpack-homework/node_modules/scheduler/index.js",
+          "resolvedModule": "../node_modules/scheduler/index.js",
+          "type": "cjs export require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./cjs/scheduler.development.js",
+          "loc": "6:2-60",
+          "moduleId": "../node_modules/scheduler/index.js",
+          "resolvedModuleId": "../node_modules/scheduler/index.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "unstable_IdlePriority",
+        "unstable_ImmediatePriority",
+        "unstable_LowPriority",
+        "unstable_NormalPriority",
+        "unstable_Profiling",
+        "unstable_UserBlockingPriority",
+        "unstable_cancelCallback",
+        "unstable_continueExecution",
+        "unstable_forceFrameRate",
+        "unstable_getCurrentPriorityLevel",
+        "unstable_getFirstCallbackNode",
+        "unstable_next",
+        "unstable_now",
+        "unstable_pauseExecution",
+        "unstable_requestPaint",
+        "unstable_runWithPriority",
+        "unstable_scheduleCallback",
+        "unstable_shouldYield",
+        "unstable_wrapCallback"
+      ],
+      "optimizationBailout": [
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 230:28-48",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 267:20-40",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 366:20-40",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 486:20-40",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 519:22-42",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 594:13-33"
+      ],
+      "depth": 5
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 308,
+      "sizes": {
+        "runtime": 308
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/define property getters",
+      "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "app"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 88,
+      "sizes": {
+        "runtime": 88
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "app"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 274,
+      "sizes": {
+        "runtime": 274
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "app"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 274,
+      "sizes": {
+        "runtime": 274
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "home"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 274,
+      "sizes": {
+        "runtime": 274
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "login"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 123,
+      "sizes": {
+        "runtime": 123
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/node module decorator",
+      "name": "webpack/runtime/node module decorator",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "home"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 123,
+      "sizes": {
+        "runtime": 123
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/node module decorator",
+      "name": "webpack/runtime/node module decorator",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "login"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    }
+  ],
+  "entrypoints": {
+    "app": {
+      "name": "app",
+      "chunks": [
+        "app"
+      ],
+      "assets": [
+        {
+          "name": "app.js",
+          "size": 3563
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 3563,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "home": {
+      "name": "home",
+      "chunks": [
+        "home"
+      ],
+      "assets": [
+        {
+          "name": "home.js",
+          "size": 1137940
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1137940,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "login": {
+      "name": "login",
+      "chunks": [
+        "login"
+      ],
+      "assets": [
+        {
+          "name": "login.js",
+          "size": 1137944
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1137944,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "app": {
+      "name": "app",
+      "chunks": [
+        "app"
+      ],
+      "assets": [
+        {
+          "name": "app.js",
+          "size": 3563
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 3563,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "home": {
+      "name": "home",
+      "chunks": [
+        "home"
+      ],
+      "assets": [
+        {
+          "name": "home.js",
+          "size": 1137940
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1137940,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "login": {
+      "name": "login",
+      "chunks": [
+        "login"
+      ],
+      "assets": [
+        {
+          "name": "login.js",
+          "size": 1137944
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1137944,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": [],
+  "memesCount": 3
+}
