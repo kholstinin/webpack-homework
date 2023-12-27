@@ -1,0 +1,13 @@
+{
+  "name": "7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
