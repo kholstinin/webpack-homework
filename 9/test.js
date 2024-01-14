@@ -1,9 +1,11 @@
 const assert = require('node:assert');
 const path = require('node:path');
+const upath = require('upath');
 const fs = require('node:fs/promises');
 const fg = require('fast-glob');
 
-const files = fg.sync(path.resolve(__dirname, './dist/**'));
+const files = fg.sync(upath.resolve(__dirname, './dist/**'));
+console.log(files);
 
 (async function() {
   for await (const file of files) {
