@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script nonce="{NONCE}">window.nonce = '{NONCE}'</script>
+    <% for (key in htmlWebpackPlugin.files.js) { %>
+      <script nonce="{NONCE}" type="text/javascript" src="<%= htmlWebpackPlugin.files.js[key] %>"></script>
+    <% } %>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
